@@ -7,6 +7,8 @@ import java.util.*;
 //write a new interface 
 interface SolarSystem2
 {
-    public void planet();
-    public void sun();
+    //must have the abstract methods used in the class (?)
+    void drawSolarObject(double distance, double angle, double diameter, String col);
+    void drawSolarObjectAbout(double distance, double angle, double diameter, String col, double centreOfRotationDistance, double centreOfRotationAngle);
+    void finishedDrawing();
 }
