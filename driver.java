@@ -17,7 +17,7 @@ public class driver
         //draw a planet orbiting around the sun 
         system.drawSolarObjectAbout(10, 90, 25, "GREEN", 250, 45); 
         //make planet move
-        //planet1.rotatePlanet();
+        planet1.rotatePlanet(45);
         
         system.finishedDrawing(); //updates the window to show the sun 
     }
